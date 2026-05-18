@@ -1,6 +1,6 @@
 # Shred Graphique
 
-Application **GTK4** (Rust) pour l’effacement sécurisé de disques sous Linux, via la commande [`shred`](https://www.gnu.org/software/coreutils/manual/html_node/shred-invocation.html). Pensée pour un usage en **atelier / banc de nettoyage** : détection des disques branchés, sélection multiple, effacements en parallèle avec suivi de progression.
+Application **Rust** (GTK4) pour l’effacement sécurisé de disques sous Linux, via la commande [`shred`](https://www.gnu.org/software/coreutils/manual/html_node/shred-invocation.html). Pensée pour un usage en **atelier / banc de nettoyage** : détection des disques branchés, sélection multiple, effacements en parallèle avec suivi de progression.
 
 > **Attention** — Cette application détruit définitivement les données des disques sélectionnés. Vérifiez toujours les cibles avant de lancer une suppression. Le disque système est protégé, mais une erreur d’identification reste possible sur d’autres supports.
 
