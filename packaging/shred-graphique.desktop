@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Shred Graphique
+Comment=Secure disk wiping tool
+Exec=shred-graphique
+Icon=shred-graphique
+Terminal=false
+Categories=System;Utility;
